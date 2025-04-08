@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sangam Bhatta - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <a href="#home" class="logo">Sangam Bhatta</a>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <button id="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <div class="mobile-menu-container">
+          <button id="theme-toggle-mobile" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button id="mobile-menu-btn" aria-label="Toggle menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav">
+        <div class="container">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1>Hi, I'm <span class="highlight">Sangam Bhatta</span></h1>
+              <h2>Computer Science Researcher & Developer</h2>
+              <p>Passionate about AI, Data Science, and Web Development.</p>
+              <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">
+                  <i class="fas fa-download"></i> Download CV
+                </a>
+                <a href="#projects" class="btn btn-outline">
+                  <i class="fas fa-chevron-right"></i> View Projects
+                </a>
+              </div>
+            </div>
+            <div class="hero-image">
+              <div class="profile-image">
+                <img src="img/sangam-profile.png" alt="Sangam Bhatta" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                I am currently pursuing my undergraduate degree in Computer
+                Science with AI at Sunway College Kathmandu, which is affiliated
+                with Birmingham City University (BCU). I'm in my 1st year of
+                studies, building a strong foundation in computer science
+                principles and exploring the exciting field of artificial
+                intelligence.
+              </p>
+              <p>
+                My goal is to build innovative solutions that bridge the gap
+                between technology and real-world applications. I'm particularly
+                interested in how AI and data science can be used to solve
+                complex problems and improve people's lives.
+              </p>
+              <div class="education">
+                <h3>Education</h3>
+                <div class="education-card">
+                  <div class="education-icon">
+                    <i class="fas fa-book-open"></i>
+                  </div>
+                  <div class="education-details">
+                    <h4>
+                      BSc (Hons) Computer Science with Artificial Intelligence
+                    </h4>
+                    <p>
+                      Sunway College Kathmandu, affiliated with Birmingham City
+                      University (BCU)
+                    </p>
+                    <p>2023 - Present</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-cards">
+              <div class="info-card">
+                <h3><i class="fas fa-user"></i> Personal Info</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-envelope"></i> sangambhatta3.2@gmail.com
+                  </li>
+                  <li>
+                    <i class="fab fa-linkedin"></i>
+                    <a
+                      href="https://www.linkedin.com/in/sangam-bhatta/"
+                      target="_blank"
+                      >linkedin.com/in/sangam-bhatta</a
+                    >
+                  </li>
+                  <li><i class="fab fa-github"></i> github.com/sangambhatta</li>
+                  <li>
+                    <i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal
+                  </li>
+                </ul>
+              </div>
+              <div class="info-card">
+                <h3><i class="fas fa-briefcase"></i> Interests</h3>
+                <div class="interests">
+                  <span>Artificial Intelligence</span>
+                  <span>Data Science</span>
+                  <span>Web Development</span>
+                  <span>UI/UX Design</span>
+                  <span>Machine Learning</span>
+                  <span>Research</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2 class="section-title">
+            My <span class="highlight">Skills</span>
+          </h2>
+
+          <div class="skills-tabs">
+            <div class="tabs-nav">
+              <button class="tab-btn active" data-tab="programming">
+                Programming
+              </button>
+              <button class="tab-btn" data-tab="databases">Databases</button>
+              <button class="tab-btn" data-tab="datascience">
+                Data Science
+              </button>
+              <button class="tab-btn" data-tab="other">Other Skills</button>
+            </div>
+
+            <div class="tabs-content">
+              <div class="tab-pane active" id="programming">
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Python</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>JavaScript</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>HTML</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>CSS</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>C</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>C++</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="databases">
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MySQL</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Firebase</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="datascience">
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Jupyter</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Tableau</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>WEKA</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Excel</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Google Dashboard</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="other">
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                      <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning</h3>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-search"></i></div>
+                    <h3>Research</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title">
+            My <span class="highlight">Projects</span>
+          </h2>
+
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/project-1.jpg" alt="Bus Route Finder App" />
+                <div class="project-overlay">
+                  <h3>Bus Route Finder App (Kathmandu)</h3>
+                  <div class="project-tags">
+                    <span>React Native</span>
+                    <span>Django</span>
+                    <span>Google Maps API</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <p>
+                  A mobile application that helps users find bus routes in
+                  Kathmandu. The app displays a map with highlighted bus routes
+                  and allows users to search for destinations to find the best
+                  route.
+                </p>
+                <div class="project-status">
+                  <i class="far fa-calendar"></i> In Progress
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="img/logo.png" alt="MoreBazaar E-commerce Website" />
+                <div class="project-overlay">
+                  <h3>MoreBazaar (E-commerce Website)</h3>
+                  <div class="project-tags">
+                    <span>html</span>
+                    <span>css</span>
+                    <!-- <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span> -->
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <p>
+                  A modern e-commerce platform designed for efficient online
+                  shopping. Currently in progress, this project aims to provide
+                  a seamless shopping experience with advanced features.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Sangam206/ecommerce-website1"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                  <a
+                    href="https://sangam206.github.io/ecommerce-website1/"
+                    class="project-link"
+                  >
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <!-- <section id="blog" class="blog-section">
+        <div class="container">
+          <h2 class="section-title">
+            Latest <span class="highlight">Articles</span>
+          </h2>
+
+          <div class="blog-grid"> -->
+      <!-- Blog Post 1 -->
+      <!-- <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/blog-1.jpg" alt="Getting Started with AI" />
+              </div>
+              <div class="blog-content">
+                <div class="blog-date">March 15, 2024</div>
+                <h3>Getting Started with AI: A Beginner's Guide</h3>
+                <p>
+                  Artificial Intelligence can seem intimidating for beginners.
+                  In this article, I break down the fundamental concepts and
+                  provide practical steps to start your AI journey.
+                </p>
+                <a href="#" class="blog-link">
+                  Read More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div> -->
+
+      <!-- Blog Post 2 -->
+      <!-- <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/blog-2.jpg" alt="Web Development Trends" />
+              </div>
+              <div class="blog-content">
+                <div class="blog-date">February 28, 2024</div>
+                <h3>Top Web Development Trends to Watch in 2024</h3>
+                <p>
+                  The web development landscape is constantly evolving. Here are
+                  the key trends that are shaping the industry this year and
+                  what you should focus on learning.
+                </p>
+                <a href="#" class="blog-link">
+                  Read More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div> -->
+
+      <!-- Blog Post 3 -->
+      <!-- <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/blog-3.jpg" alt="Data Science Projects" />
+              </div>
+              <div class="blog-content">
+                <div class="blog-date">January 10, 2024</div>
+                <h3>5 Data Science Projects to Build Your Portfolio</h3>
+                <p>
+                  Looking to showcase your data science skills? Here are five
+                  project ideas that will help you stand out to potential
+                  employers and demonstrate your expertise.
+                </p>
+                <a href="#" class="blog-link">
+                  Read More <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-more">
+            <a href="#" class="btn btn-outline">View All Articles</a>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="section-title">
+            Get In <span class="highlight">Touch</span>
+          </h2>
+
+          <div class="contact-content">
+            <div class="contact-info">
+              <p>
+                I'm always interested in hearing about new projects,
+                opportunities, or just connecting with fellow developers and
+                researchers. Feel free to reach out!
+              </p>
+
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h3>Email</h3>
+                    <p>sangambhatta3.2@gmail.com</p>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h3>LinkedIn</h3>
+                    <a
+                      href="https://www.linkedin.com/in/sangam-bhatta/"
+                      target="_blank"
+                      >linkedin.com/in/sangam-bhatta</a
+                    >
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="contact-icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="contact-details">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/Sangam206" target="_blank"
+                      >github.com/in/sangam-bhatta</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" placeholder="Subject" />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Your message"
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>Sangam Bhatta</h3>
+            <p>Computer Science Researcher & Developer</p>
+          </div>
+
+          <div class="footer-social">
+            <a href="#" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sangam-bhatta/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Sangam206" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="current-year"></span> Sangam Bhatta. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
